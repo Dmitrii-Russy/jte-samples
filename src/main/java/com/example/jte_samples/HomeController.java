@@ -31,9 +31,7 @@ public class HomeController {
     }
 
     @GetMapping("/demo/if")
-    public String showIf(
-            @RequestParam(required = false) Integer num, Model model
-    ) {
+    public String showIf(@RequestParam(required = false) Integer num, Model model) {
         model.addAttribute("num", num);
         return "if";
         //http://localhost:8080/demo/if
