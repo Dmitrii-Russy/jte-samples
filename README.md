@@ -1,2 +1,4 @@
 # jte-samples
-Step-by-step JTE examples
+
+Dan vega - Introducing JTE
+https://www.danvega.dev/blog/hello-jte
